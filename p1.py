@@ -7,10 +7,7 @@
 #print and input is a function; anything that has a bracket
 #input function is weak; cant do 2 at a time and assumes everything is a sting 
 #name is a varaible 
-# ls --> list stuff
-#pwd "print working directory "
-#mkdir --> "make directory"
-#cd --> "change directory"
+
 
 name = input("whats your name?")
 age = input("how old are you?")
