@@ -24,14 +24,15 @@
 import math 
 start = 1
 num = int(input("Number please?")) 
-new_stop = int(math.sqrt(end)) +1 
+new_stop = int(math.sqrt(num)) +1 
+factor_count = 0
 
 while start < new_stop: 
-    if end % new_stop==0: 
+    if num % new_stop==0: 
         dividend = num//start 
         if start != dividend: 
             factor_count += 2 
         else: 
             factor_count += 1 
     start += 1 
-print(f"{num} has {factor_count} many factors. ")
+print(f"{num} has {factor_count} many factors.")
