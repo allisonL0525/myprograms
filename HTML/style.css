@@ -1,0 +1,17 @@
+body { 
+    background-color: rgb(79, 106, 156);
+    background: radial-gradient(circle,rgba(238,174, 202,1) 0%, rgb(101, 135, 173)100%);
+}
+
+h1 { 
+    color: #fff; 
+
+}
+
+h1, h2, h3, h4, h5, h6{
+    font-size: 25px;
+}
+
+p{ 
+    background-color:rgb(48, 162, 162);
+}

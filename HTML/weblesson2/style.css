@@ -1,0 +1,89 @@
+body {     
+    background-color: #829eb5;
+    background-image: url(https://www.dioye.com/img/%E9%97%B2%E8%81%8A%E6%9D%82%E8%B0%88/%E7%8C%AB%E7%8C%AB%E5%9B%BE/000.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+h1{ 
+    text-align: center;
+    font-family: 'Times New Roman', serif;
+    font-weight: auto;
+    font-style:  normal; 
+}
+
+#highlight { 
+    background-color: #fff;
+    color: black;
+}
+
+#header{ 
+    position: sticky;
+    top: 0; 
+    width: 80%;
+    height: 30px; 
+    background-color: lightskyblue;
+    color: #a6a6a6;
+    text-align: center;
+    margin: auto; 
+    padding: 30px; 
+    border-radius: 10px;
+    border-radius: solid;
+    border-color: #fff;
+    z-index: 1;
+}
+
+#header p, h2{ 
+    display: inline;
+}
+
+#header p{ 
+    font-size: 0.75rem;
+    font-variant: small-caps;
+}
+
+#parent { 
+    position: relative;
+    width: 80%;
+    height: 550px; 
+    margin: 5% auto;
+    background-color: aliceblue;
+    border-style: solid;
+    border-color: black;
+    color: black;
+    border-radius: 10px;
+}
+
+#child{
+    position: absolute;
+    width: 75%; 
+    height: 350px; 
+    right: 7%; 
+    border-style: solid;
+    border-radius: 10px;
+    border-color: #829eb5;
+    color: aqua;
+}
+
+#relative { 
+    position: relative;
+    width: 60%;
+    height: 350px;
+    top: 250px; 
+    left: 20%; 
+    border-radius: 15px;
+    border-style: solid;
+    border-color: white;
+    background-color: #262626;
+    color: #fff;
+}
+
+img { 
+    position: fixed;
+    top: -7%;
+    left: 0%; 
+    width: 20%;
+    height: auto;
+    z-index: 2;
+
+}
